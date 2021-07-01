@@ -22,6 +22,7 @@
     position: relative;
     left: -230px;
     top: -60px;
+    right: -20px;
 }
 .attribution
 {
@@ -34,21 +35,56 @@ hr
 #a1
 {
     background-color: hsl(31, 77%, 52%);
-    width: 350px;
+    width: 330px;
+    max-width: 350px;
     text-align: center;
 }
 #a2
 {
     background-color: hsl(184, 100%, 22%);
-    width: 350px;
+    width: 330px;
     text-align: center;
 }
 #a3
 {
     background-color: hsl(179, 100%, 13%);
     text-align: center;
-    width: 350px;
+    width: 330px;
 }
+}
+@media (max-height: 420px)
+{
+    .boxes
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #a1
+{
+    background-color: hsl(31, 77%, 52%);
+    width: 667px;
+    text-align: center;
+}
+#a2
+{
+    background-color: hsl(184, 100%, 22%);
+    width: 667px;
+    text-align: center;
+}
+#a3
+{
+    background-color: hsl(179, 100%, 13%);
+    text-align: center;
+    width: 667px;
+}
+#alignment
+{
+    position: relative;
+    left: -250px;
+    top: -60px;
+    right: -20px;
+}
+
 }
 #a1
 {
