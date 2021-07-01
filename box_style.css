@@ -1,0 +1,117 @@
+.boxes
+{
+    display: flex;
+    flex-direction: row;
+    /* -moz-box-shadow: 10px 10px 16px black;
+    -webkit-box-shadow: 10px 10px 16px black; */
+    /* box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.87); */
+}
+@media(max-width:420px)
+{
+    .boxes
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .attribution
+    {
+        padding: 0px 20px 0px 20px;
+    }
+    #alignment
+{
+    position: relative;
+    left: -230px;
+    top: -60px;
+    right: -20px;
+}
+.attribution
+{
+    text-align: center;
+}
+hr
+{
+    width: 300px;
+}
+#a1
+{
+    background-color: hsl(31, 77%, 52%);
+    width: 330px;
+    max-width: 350px;
+    text-align: center;
+}
+#a2
+{
+    background-color: hsl(184, 100%, 22%);
+    width: 330px;
+    text-align: center;
+}
+#a3
+{
+    background-color: hsl(179, 100%, 13%);
+    text-align: center;
+    width: 330px;
+}
+}
+#a1
+{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px 30px 30px 30px;
+}
+#a2
+{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 30px 30px 30px;
+}
+#a3
+{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px 30px 30px 30px;
+}
+h1
+{   
+    color: white;
+    font-family: 'Big Shoulders Display',cursive;
+    
+}
+#button1
+{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#button2
+{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#button3
+{
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Deca', sans-serif;   
+}
+p
+{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+#alignment
+{
+    padding: 50px 200px 50px 200px;
+}
