@@ -22,7 +22,6 @@
     position: relative;
     left: -230px;
     top: -60px;
-    right: -20px;
 }
 .attribution
 {
@@ -35,21 +34,20 @@ hr
 #a1
 {
     background-color: hsl(31, 77%, 52%);
-    width: 330px;
-    max-width: 350px;
+    width: 350px;
     text-align: center;
 }
 #a2
 {
     background-color: hsl(184, 100%, 22%);
-    width: 330px;
+    width: 350px;
     text-align: center;
 }
 #a3
 {
     background-color: hsl(179, 100%, 13%);
     text-align: center;
-    width: 330px;
+    width: 350px;
 }
 }
 @media (max-height: 420px)
